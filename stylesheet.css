@@ -10,8 +10,9 @@
     margin-top: 5%;
 	position: relative;
     width: 100%;
+    height: 100%;
     height: 440px;
-    
+    border-radius: 1%;
 }
 
 #myImage .mask{
@@ -25,10 +26,12 @@
 #myImage h1 {
 	position: absolute;
     right: 100px;
-    bottom: -20px;
-    width: 430px;
+    bottom: 1px;
+    width: 330px;
     text-align: center;
-  
+    font-size: 20px;
+    font-family: cursive;
+    text-shadow: 2px 2px black;
 }
 #myImage img{
 	position:absolute !important;
@@ -53,7 +56,10 @@ body {
 }
 
 .aktifLogo{
-    width: 20%;
+   border-radius: 100%;
+}
+.schools{
+    border-radius: 100%;
 }
 
 body {
@@ -146,7 +152,7 @@ a{
 #myResume{
     font-size: 15px;
     font-family: cursive;
-    text-shadow: 2px 2px #ff0000%;
+    text-shadow: 2px 2px #ff0000;
 }
 .bottomcontent {
     background-color: rgba(255, 255, 255, 0.3);
@@ -282,7 +288,7 @@ a{
 #myImage h1 {
 	position: absolute;
     right: 10px;
-    bottom: -20px;
+    bottom: -10px;
     width: 100%;
     text-align: center;
   
