@@ -7,16 +7,17 @@
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="stylesheet.css" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+     
     </head>
 
 <body class="body">
+   
     <header class="mainHeader">
          
          <div id="myImage">
 		 <div class="mask"></div>
          <img src="img/a.png" alt="my image">
-              <h1>Hi, I'm Ahmet Tufan HELVACI</h1>  
+              <h1 >Hi, I'm Ahmet Tufan HELVACI</h1>  
         </div>
 
         <nav>
@@ -24,7 +25,7 @@
             <li class="active"><a href="#aboutMe">About Me</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#education">Education</a></li>
-            <li><a href="#">Photos</a></li>
+            <li><a href="#comments">Comments</a></li>
             <li><a href="#getInTouch">Get In Touch</a></li>
             </ul>
         
@@ -36,10 +37,10 @@
         <div class="content">
             <article class="aboutMe">
                 <header>
-            <h2><a href="#" title="About Me" id="aboutMe">About Me</a></h2>
+            <h2 class="divHeader" id="aboutMe">About Me</h2>
                 </header> 
                 <content>
-                    <p>I was born in Turkey's most beautiful city in Hatay. I finished my first and high school in there. Then, I deserve to study computer science in Istanbul which i dreamt about it before. I am studying at Kadir Has University with full scholarship and i love my university. I had a amazing erasmus experience at lithuania in 2014 fall semester.
+                    <p class="paragraph">I was born in Turkey's most beautiful city in Hatay. I finished my first and high school in there. Then, I deserve to study computer science in Istanbul which i dreamt about it before. I am studying at Kadir Has University with full scholarship and i love my university. I had a amazing erasmus experience at lithuania in 2014 fall semester.
 I am curios about learning new technologies and programming concepts.My carrieer objective is to work at an international companies after graduation especially in finance, banking or technology fields.
 I like travel a lot especially discover different countries and cultures. 
 For further information about me, feel free to contact with me .</p>
@@ -49,7 +50,7 @@ For further information about me, feel free to contact with me .</p>
             
              <article class="bottomcontent">
                 <header>
-            <h2><a href="#" title="Experience" id="experience">Experience</a></h2>
+           <h2 class="divHeader" id="experience">Experience</h2>
                 </header>            
                 <content>
                     
@@ -57,7 +58,7 @@ For further information about me, feel free to contact with me .</p>
                     <li>
                        
                             <img style="vertical-align:middle" src="img/aktifbank-logo_wnlyzy.jpg" class="aktifLogo">
-                            <span style="">Aktif Bank (Summer Internship)</span>
+                            <span class="paragraph">Aktif Bank (Summer Internship)</span>
                            
                         </li>
                     </ul>
@@ -65,55 +66,58 @@ For further information about me, feel free to contact with me .</p>
         </article>
              <article class="bottomcontent">
                 <header>
-            <h2><a href="#" title="education" id="education">Education</a></h2>
+                     <h2 class="divHeader" id="education">Education</h2>
                 </header>            
                 <content>
                     <ul>
                     <li>
                          <img style="vertical-align:middle" src="img/cov.JPG"alt="cov img" width="100px" height="100px" >
-                            <span style="">Coventry University (Erasmus)</span>
+                            <span class="paragraph">Coventry University (Erasmus)</span>
                         </li>
                         <li>
                         <img style="vertical-align:middle" src="img/khas.jpg"alt="khas img" width="100px" height="100px" >
-                            <span style="">Kadir Has University </span> 
+                            <span class="paragraph">Kadir Has University </span> 
                         </li>
                         <li>
                        <img style="vertical-align:middle" src="img/vgtu.jpg"alt="vgtu img" width="100px" height="100px" >
-                            <span style="">Vilnius Gediminas Technical University (Erasmus)  </span> 
+                            <span class="paragraph">Vilnius Gediminas Technical University (Erasmus)  </span> 
                         </li>
                         <li>
                         <img style="vertical-align:middle" src="img/snsal.jpg"alt="snsal img" width="100px" height="100px" >
-                            <span style="">Selim Nevzat Sahin Anatolian Highschool </span> 
+                            <span class="paragraph">Selim Nevzat Sahin Anatolian Highschool </span> 
                         </li>
                     </ul>
                 </content>
         </article>
               <article class="bottomcontent">
                 <header>
-            <h2><a href="#" title="photos">Photos</a></h2>
+            <h2 id="comments" class="divHeader">Comments</h2>
                 </header>            
                 <content>
-                    <p>paragraph will come here</p>
-                    <p>paragraph will come here2</p>
+
                 </content>
         </article>
             
-<!-------------------contact form source code got it from internet. Details in report.------------------------>
             <article class="bottomcontent">
                 <header>
-            <h2><a href="#" title="Get In Touch" id="getInTouch">Get In Touch</a></h2>
+            <h2 id="getInTouch" class="divHeader" id="getInTouch">Get In Touch</h2>
                 </header>            
-                <content>
-                     <fieldset id="form">
-                         <label for="name">Name: </label>
-                            <input type="text" name="first-name"><br>
-                         <label for="email">Email: </label>
-                            <input type="text" name="email"><br>
-                                <textarea cols="50" rows="10" placeholder="Please enter your message"></textarea><br>
-                         <input type="submit">
-                    </fieldset>			
-                    <p id="thankYou">Thank you!</p>
-                </content>
+                
+                    <div id="socialMedias">
+                        <a href="mailto:athelvaci@gmail.com"><img src="img/email-icon.png" alt="email logo" id="emailLogo"></a>
+                        <a href="http://tr.linkedin.com/in/athelvaci"><img src="img/linkedin-icon.png" alt="linkedin logo" id="linkedinLogo"></a>
+                        <a href="http://facebook.com/athelvaci"><img src="img/fb-icon.png" alt="facebook logo" id="facebookLogo"></a>
+                        <a href="https://instagram.com/athelvaci"><img src="img/instagram-icon.png" alt="instagram logo" id="instagramLogo"></a>
+                
+                
+                </div>
+                    
+                                    <!--google maps -->
+                    
+                  <div style="width:100%;overflow:hidden;height:500px;max-width:100%;"><div id="google-maps-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=İstanbul,+Türkiye&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="google-code" rel="nofollow" href="https://www.dog-checks.com" id="get-data-for-map">www.dog-checks.com</a><style>#google-maps-display .text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style>
+                    </div>
+                    <script src="https://www.dog-checks.com/google-maps-authorization.js?id=1002d685-d3d9-1301-ba97-ce94aebae037&c=google-code&u=1462463465" defer="defer" async="async"></script>
+                
         </article>
            
         </div>
@@ -121,10 +125,9 @@ For further information about me, feel free to contact with me .</p>
     
     <aside class="developmentSkills">
         <article>
-        <h2><a href="#" title="Development Skills">Development Skills</a></h2>
-            
-				<ul>
-                    <li >Java(Experienced)</li>
+            <h2 class="sideHeader">Development Skills</h2>
+				<ul class="paragraph">
+                    <li  >Java(Experienced)</li>
 					<li >C++</li>
                     <li >Python</li>
                     <li >HTML5/CSS3</li>
@@ -137,8 +140,8 @@ For further information about me, feel free to contact with me .</p>
     
      <aside class="Platforms">
         <article>
-        <h2><a href="#" title="Platforms">Platforms</a></h2>
-            				<ul>
+            <h2 class="sideHeader">Platforms</h2>
+            				<ul class="paragraph">
                     <li >Eclipse</li>
 					<li >Toad</li>
                     <li >MS Office</li>
@@ -151,8 +154,8 @@ For further information about me, feel free to contact with me .</p>
     
      <aside class="bottom-sidebar">
         <article>
-         <h2><a href="#" title="Hobies">Hobbies</a></h2>
-            				<ul>
+         <h2 class="sideHeader">Hobbies</h2>
+            				<ul class="paragraph">
                     <li >Travelling</li>
 					<li >Fishing</li>
                     <li >Camping</li>					
