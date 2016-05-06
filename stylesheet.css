@@ -57,6 +57,7 @@ body {
 
 .aktifLogo{
    border-radius: 100%;
+   background-color: white;
 }
 .schools{
     border-radius: 100%;
@@ -373,15 +374,12 @@ a{
     margin-left: 1%
 }
     .divHeader{
-      
-    margin-left: 30%;
     color: red;
     text-decoration: underline;
     font-size: 35px;
 }
 .sideHeader{
     color: red;
-    margin-left: 25%;
     text-decoration: underline;
     font-size: 35px;
 }
